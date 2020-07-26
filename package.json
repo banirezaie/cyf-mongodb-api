@@ -1,15 +1,25 @@
 {
   "name": "films-mongodriver",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Mike Hayden <mickyginger@gmail.com> (https://github.com/mickyginger)",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.5.9"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banirezaie/cyf-mongodb-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/banirezaie/cyf-mongodb-api/issues"
+  },
+  "homepage": "https://github.com/banirezaie/cyf-mongodb-api#readme",
+  "description": ""
 }
